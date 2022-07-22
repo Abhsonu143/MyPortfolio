@@ -16,7 +16,7 @@ const portfolio = [
     category: "Web Design",
     keyword: ["Web", "Website", "UI-UX"],
     liveUrl: "#",
-    details:"https://github.com/Abhsonu143/"
+    details:"https://github.com/Abhsonu143/MyPortfolio"
   },
 
 ];
