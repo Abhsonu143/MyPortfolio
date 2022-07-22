@@ -1,0 +1,32 @@
+.container{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 4vw;
+}
+.container:hover{
+    box-shadow: 0 10px 10px rgba(11, 196, 23, 0.4), 0 5px 10px rgba(32, 239, 39, 0.5);
+    border-radius: 20px 0 20px 0;
+    width: 160px;
+    height: 160px;
+    margin: 15px 4vw;
+}
+.imgItem{
+    flex: 3;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    flex: 1;
+    font-size: 20px;
+    color: #D4F6CC;
+}
+.container:hover .title{
+    color: #003865;
+}
